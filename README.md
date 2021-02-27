@@ -13,8 +13,13 @@ Done is for complete tasks
 
 To Do | In Progress | Review | Done
 ------|-------------|--------|-------
-[ ] Outline | [ ] Dividing tasks - Michelle & Thomas | | [ x ]Create repo - Michelle
+[ ] Outline | | | [ x ] Create repo - Michelle
 [ ] Task List | [ ] 4 Column Chart on Repo - Michelle | | [ X ] Google meet session - Michelle & Thomas
-[ ] Task list | [ ] Import existing calculator - Michelle | |
+[ ] Program Requirements|                                       | |[ X ] Import existing calculator - Michelle
+[ ] Random Generator Function | | | [ X ] Dividing tasks - Michelle & Thomas
+[ ] Population Sampling Function | | |  
+[ ] Descriptive Statistics Function | | | |
+
+
 
 
