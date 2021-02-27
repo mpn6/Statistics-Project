@@ -11,7 +11,7 @@ Done is for complete tasks
 To Do | In Progress | Review | Done
 ------|-------------|--------|-------
 [ ] Outline | [ ] Dividing tasks - Michelle & Thomas | | [ x ]Create repo - Michelle
-[ ] Import existing calculator | [ ] Google meet session - Michelle & Thomas | | 
-[ ] Task list | [ ] 4 Column Chart on Repo - Michelle | |
+[ ] Task List | [ ] 4 Column Chart on Repo - Michelle | | [ X ] Google meet session - Michelle & Thomas
+[ ] Task list | [ ] Import existing calculator - Michelle | |
 
 
