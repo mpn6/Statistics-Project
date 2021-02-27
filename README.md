@@ -1,3 +1,6 @@
+[![Coverage Status](https://coveralls.io/repos/github/mpn6/Statistics-Project/badge.svg?branch=main)](https://coveralls.io/github/mpn6/Statistics-Project?branch=main)
+[![Build Status](https://travis-ci.com/mpn6/Statistics-Project.svg?branch=main)](https://travis-ci.com/mpn6/Statistics-Project)
+
 # Statistics-Project
 
 ### Team Members: Michelle Nunez and Thomas Semiz
