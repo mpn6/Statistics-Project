@@ -1,43 +1,49 @@
-//import the necessary files & functions
-const Calculation = require('./Models/Calculation')
-const Sum = require('./Operations/Sum')
-const Difference = require('./Operations/Difference')
-const Product = require('./Operations/Product')
-const Quotient = require('./Operations/Quotient')
-const Power = require('./Operations/Power')
-const Root = require('./Operations/Root')
+const Calculation = require('../src/Models/Calculation');
+const Sum = require('../src/Operations/Sum');
+const Difference = require('../src/Operations/Difference');
+const Product = require('../src/Operations/Product');
+const Quotient = require('../src/Operations/Quotient');
+const Power = require('../src/Operations/Power');
+const Root = require('../src/Operations/Root');
 
-class Calculator{
-    static Calculations = []; //instantiate a calculations list
+class Calculator extends Calculation {
+
+    static Calculations = [];
+
+    static AddCalculation(calculation){
+        Calculator.Calculations.push(calculation);
+    }
     static Sum(a,b){
-        let calculation = new Calculation(a, b, Sum);
-        this.Calculations.push(calculation)
-        return calculation.GetResults();
+        let calculation = this.Create(a,b,Sum);
+        this.AddCalculation(calculation);
+        return calculation;
     }
     static Difference(a,b){
-        let calculation = new Calculation(a, b, Difference);
-        this.Calculations.push(calculation)
-        return calculation.GetResults();
+        let calculation = this.Create(a,b,Difference);
+        this.AddCalculation(calculation);
+        return calculation;
     }
     static Product(a,b){
-        let calculation = new Calculation(a, b, Product);
-        this.Calculations.push(calculation)
-        return calculation.GetResults();
+        let calculation = this.Create(a,b,Product);
+        this.AddCalculation(calculation);
+        return calculation;
     }
     static Quotient(a,b){
-        let calculation = new Calculation(a, b, Quotient);
-        this.Calculations.push(calculation)
-        return calculation.GetResults();
+        let calculation = this.Create(a,b,Quotient);
+        this.AddCalculation(calculation);
+        return calculation;
     }
-    static Square(a){
-        let calculation = new Calculation(a, 2, Power);
-        this.Calculations.push(calculation)
-        return calculation.GetResults();
+    static Power(a,b){
+        let calculation = this.Create(a,b,Power);
+        this.AddCalculation(calculation);
+        return calculation;
     }
-    static SquareRoot(a){
-        let calculation = new Calculation(a, 2, Root);
-        this.Calculations.push(calculation)
-        return calculation.GetResults();
+    static Root(a,b){
+        let calculation = this.Create(a,b,Root);
+        this.AddCalculation(calculation);
+        return calculation;
     }
+
 }
+
 module.exports = Calculator;
