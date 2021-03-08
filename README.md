@@ -3,7 +3,7 @@
 
 # Statistics-Project
 
-### Team Members: Michelle Nunez and Thomas Semiz
+Michelle Nunez
 
 A Gitub Repository and a Project that has a 4 column chart: Todo, In progress, Review, Done.  
 ToDo Shows your Tasks List
@@ -13,10 +13,10 @@ Done is for complete tasks
 
 To Do | In Progress | Review | Done
 ------|-------------|--------|-------
-[ ] Outline | | | [ x ] Create repo - Michelle
-[ ] Task List | [ ] 4 Column Chart on Repo - Michelle | | [ X ] Google meet session - Michelle & Thomas
-[ ] Program Requirements|                                       | |[ X ] Import existing calculator - Michelle
-[ ] Random Generator Function | | | [ X ] Dividing tasks - Michelle & Thomas
+[ ] Outline | | | [ x ] Create repo
+[ ] Task List | [ ] 4 Column Chart on Repo | | [ X ] Set task schedule
+[ ] Program Requirements|                                       | |[ X ] Import existing calculator
+[ ] Random Generator Function | | | 
 [ ] Population Sampling Function | | |  
 [ ] Descriptive Statistics Function | | | |
 
